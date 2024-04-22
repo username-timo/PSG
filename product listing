@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Listing</title>
+    <style>
+      .product-card {
+        width: 250px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        text-align: center;
+      }
+      .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .product-title {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      .product-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #358ED7;
+        margin: 10px 0;
+      }
+      .product-description {
+        font-size: 14px;
+        color: #555;
+        margin: 10px 0;
+      }
+      .cart-btn {
+        display: block;
+        background-color: #358ED7;
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product Listing</h1>
+    <div class="product-card">
+      <img class="product-image" src="https://via.placeholder.com/250x200" alt="Product Image" />
+      <h2 class="product-title">Product 1</h2>
+      <p class="product-price">$148</p>
+      <p class="product-description">
+        This is a description of product 1. It's a great product that you should consider buying.
+      </p>
+      <a class="cart-btn" href="#">Add to Cart</a>
+    </div>
+    <div class="product-card">
+      <img class="product-image" src="https://via.placeholder.com/250x200" alt="Product Image" />
+      <h2 class="product-title">Product 2</h2>
+      <p class="product-price">$129</p>
+      <p class="product-description">
+        This is a description of product 2. It's another great product that you should consider buying.
+      </p>
+      <a class="cart-btn" href="#">Add to Cart</a>
+    </div>
+    <div class="product-card">
+      <img class="product-image" src="https://via.placeholder.com/250x200" alt="Product Image" />
+      <h2 class="product-title">Product 3</h2>
+      <p class="product-price">$99</p>
+      <p class="product-description">
+        This is a description of product 3. It's a fantastic product that you should consider buying.
+      </p>
+      <a class="cart-btn" href="#">Add to Cart</a>
+    </div>
+  </body>
+</html>
